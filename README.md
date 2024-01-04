@@ -1,3 +1,4 @@
+This comprehensive list covers various Git commands, workflows, and concepts for version control and collaboration.
 Descriptive comments explaining various Git commands and concepts:
 
 ### Git Configuration
@@ -97,4 +98,3 @@ Descriptive comments explaining various Git commands and concepts:
 - `git commit -p`: Commits interactively.
 
 These comments aim to provide an overview and understanding of various Git commands, operations, and concepts commonly used in version control workflows.
-This comprehensive list covers various Git commands, workflows, and concepts for version control and collaboration.
