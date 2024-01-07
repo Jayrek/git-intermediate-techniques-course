@@ -71,6 +71,9 @@ Descriptive comments explaining various Git commands and concepts:
   - `git tag --list`
   - `git tag -l`
   - `git tag -l “v2*”`
+  - `git tag -n`: List tags with first line of each annotation (-n implies -l)
+  - `git tag -n5`: list tags with five lines of each annotation 
+  
 - Tag Pushing and Fetching:
   - `git push origin <tagName>`: Pushes a specific tag to a remote repository.
   - `git push origin --tags`: Pushes all tags to a remote repository.
