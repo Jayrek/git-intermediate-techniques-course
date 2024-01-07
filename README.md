@@ -71,8 +71,8 @@ Descriptive comments explaining various Git commands and concepts:
   - `git tag --list`
   - `git tag -l`
   - `git tag -l “v2*”`
-  - `git tag -n`: List tags with first line of each annotation (-n implies -l)
-  - `git tag -n5`: list tags with five lines of each annotation 
+  - `git tag -n`: List tags with first line of each annotation (-n implies -l).
+  - `git tag -n5`: list tags with five lines of each annotation.
   
 - Tag Pushing and Fetching:
   - `git push origin <tagName>`: Pushes a specific tag to a remote repository.
@@ -100,7 +100,8 @@ Descriptive comments explaining various Git commands and concepts:
 ### Stashing, Interactive Add/Reset/Restore
 - `git stash -p`: Stashes specific changes interactively.
 - `git add -i`, `git add --interactive`: Adds changes interactively.
-- `git reset -p`, `git restore -p`: Resets or restores changes interactively.
+- `git reset -p`: Resets changes interactively.
+- `git restore -p`: Restores changes interactively.
 - `git commit -p`: Commits interactively.
 
 These comments aim to provide an overview and understanding of various Git commands, operations, and concepts commonly used in version control workflows.
