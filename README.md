@@ -67,7 +67,10 @@ Descriptive comments explaining various Git commands and concepts:
 - Tag Deletion:
   - `git tag -d <tagName>`: Deletes a tag.
 - Tag Listing:
-  - `git tag`: Lists tags.
+  - `git tag`
+  - `git tag --list`
+  - `git tag -l`
+  - `git tag -l “v2*”`
 - Tag Pushing and Fetching:
   - `git push origin <tagName>`: Pushes a specific tag to a remote repository.
   - `git push origin --tags`: Pushes all tags to a remote repository.
